@@ -12,7 +12,8 @@
   ],
   "dependencies": {
     "gherkin": "^2.12.2",
-    "glob": "^4.0.6"
+    "glob": "^4.0.6",
+    "lodash": "^2.4.1"
   },
   "author": "capajj@gmail.com",
   "license": "MIT",
