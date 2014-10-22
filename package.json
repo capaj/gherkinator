@@ -15,7 +15,7 @@
     "glob": "^4.0.6",
     "lodash": "^2.4.1"
   },
-  "author": "capajj@gmail.com",
+  "author": "capaj <capajj@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^1.21.5",
