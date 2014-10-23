@@ -1,6 +1,6 @@
 {
   "name": "gherkinator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "static analysis of gherkin files, can find similar steps in your feature files",
   "main": "gherkinator.js",
   "scripts": {
