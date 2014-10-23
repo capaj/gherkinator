@@ -3,7 +3,7 @@ var should = require('should');
 
 describe('analyzer outputs with test feature files', function() {
 	it('should return an array of size 6 for one basic file', function() {
-		var steps = analyzer.file('./test/test_features/basic.feature');
+		var steps = analyzer.file('./test/test_features/basic/basic.feature');
 		var keys = Object.keys(steps);
 		keys.length.should.equal(6);
 		keys[0].should.equal('one thing');
@@ -15,7 +15,7 @@ describe('analyzer outputs with test feature files', function() {
 	});
 
 	it('should return an array of size 12 for glob of files', function() {
-		var steps = analyzer.glob('./test/test_features/*.*');
+		var steps = analyzer.glob('./test/test_features/basic/*.*');
 		var keys = Object.keys(steps);
 		keys.length.should.equal(11);
 		keys[keys.length-1].should.equal("I don't see something else in second feature");
